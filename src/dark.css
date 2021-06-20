@@ -1,0 +1,110 @@
+body.light-mode .navbar {
+  background: hsl(0, 0%, 98%);
+  color: hsl(200, 15%, 8%);
+  box-shadow: 0px 5px 5px lightgray;
+}
+
+body.light-mode .cursor-pointer {
+  color: hsl(200, 15%, 8%);
+}
+
+body.light-mode .home-container {
+  background: hsl(0, 0%, 95%);
+}
+
+body.light-mode .box {
+  background: #fff;
+}
+body.light-mode .box:hover {
+  box-shadow: 0px 5px 5px lightgray;
+}
+body.light-mode .box > i {
+  color: hsl(200, 15%, 8%);
+}
+
+body.light-mode .box > input {
+  color: hsl(200, 15%, 8%);
+  background: #fff;
+}
+
+body.light-mode .box > input::placeholder {
+  color: hsl(200, 15%, 8%);
+}
+
+body.light-mode .box > input:hover::placeholder {
+  filter: brightness(0.9);
+}
+
+body.light-mode .dropdown-btn {
+  background: #fff;
+  color: hsl(209, 23%, 22%);
+}
+
+body.light-mode .dropdown-item {
+  background: #fff;
+  color: hsl(209, 23%, 22%);
+}
+
+body.light-mode .dropdown-container:hover {
+  box-shadow: 0px 5px 5px lightgray;
+}
+
+body.light-mode .dropdown-menu:hover {
+  box-shadow: 0px 5px 5px lightgray;
+}
+
+body.light-mode .card-container {
+  background: #fff;
+  color: hsl(209, 23%, 22%);
+}
+
+body.light-mode .detail-container {
+  color: hsl(207, 26%, 17%);
+  background: #fff;
+}
+
+body.light-mode .country-wrapper {
+  color: hsl(207, 26%, 17%);
+  background: hsl(0, 0%, 98%);
+  box-shadow: 0px 5px 5px lightgray;
+}
+
+body.light-mode .img-container {
+  box-shadow: 0px 5px 5px lightgray;
+}
+
+body.light-mode .img-container img {
+  border: 1px solid gray;
+}
+
+body.light-mode .heading-details {
+  font-weight: 600;
+  font-size: 0.9rem;
+}
+body.light-mode .details {
+  font-weight: 600;
+  font-size: 0.9rem;
+}
+body.light-mode .back-btn-box {
+  background: #fff;
+  box-shadow: 0px 5px 5px lightgray;
+}
+
+body.light-mode .back-button {
+  background: #fff;
+  color: hsl(209, 23%, 22%);
+}
+
+body.light-mode .brd-btn {
+  background: #fff;
+  color: hsl(209, 23%, 22%);
+  box-shadow: 0px 5px 5px lightgray;
+}
+
+body.light-mode .card-container {
+  box-shadow: 0px 5px 5px lightgray;
+}
+
+body.light-mode .card-container:hover {
+  box-shadow: 5px 5px 5px lightgray;
+}

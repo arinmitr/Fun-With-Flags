@@ -1,0 +1,30 @@
+.border-links {
+  text-decoration: none;
+}
+
+a {
+  padding-right: 0.5rem;
+  padding-left: 0.5rem;
+}
+
+.brd-btn {
+  height: 1.8rem;
+  min-width: 5rem;
+  width: max-content;
+  background-color: hsl(209, 23%, 22%);
+  border: none;
+  cursor: pointer;
+  color: #fff;
+  border-radius: 2px;
+  padding: 0.3rem;
+}
+
+.brd-btn:hover {
+  filter: brightness(0.9);
+}
+
+@media screen and (max-width: 1200px) {
+  a {
+    padding-left: 0;
+  }
+}

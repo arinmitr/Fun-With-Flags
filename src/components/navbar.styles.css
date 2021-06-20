@@ -1,0 +1,45 @@
+.navbar {
+  background: hsl(209, 23%, 22%);
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2rem;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+  color: #fff;
+  min-width: 100vw;
+}
+
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 80px;
+  width: 90%;
+}
+
+.navbar-text {
+  margin: 10px;
+  padding: 10px;
+  font-size: 1.3rem;
+  letter-spacing: 1px;
+  font-weight: 800;
+}
+
+.mode {
+  width: max-content;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  /* margin: 10px;
+  padding: 10px; */
+  color: #fff;
+  cursor: pointer;
+}
+
+.mode-type {
+  font-size: 0.9rem;
+  margin: 0 10px 0 10px;
+}

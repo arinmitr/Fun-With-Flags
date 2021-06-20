@@ -1,0 +1,38 @@
+.box {
+  width: 20rem;
+  height: 2rem;
+  background-color: hsl(209, 23%, 22%);
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  padding: 1.2rem 0 1rem 0;
+  position: relative;
+}
+
+.box-light {
+  background: #fff;
+}
+
+.box > i {
+  padding-left: 1rem;
+  font-size: 0.9rem;
+  color: #fff;
+}
+
+.box > input {
+  background-color: hsl(209, 23%, 22%);
+  flex: 1;
+  border: none;
+  outline: none;
+  font-size: 0.9rem;
+  padding-left: 1.5rem;
+  color: #fff;
+}
+
+input::placeholder {
+  color: #fff;
+}
+
+input:hover::placeholder {
+  filter: brightness(0.5);
+}
