@@ -14,8 +14,8 @@ function App() {
       <Router>
         <Navbar />
         <Switch>
-          <Route path='/' exact component={Home} />
-          <Route path='/:name' component={Details} />
+          <Route path='/Fun-With-Flags' exact component={Home} />
+          <Route path='/Fun-With-Flags/:name' component={Details} />
         </Switch>
       </Router>
     </>

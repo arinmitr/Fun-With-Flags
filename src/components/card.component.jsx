@@ -5,7 +5,7 @@ import './card.styles.css'
 
 export const Card = (props) => (
 
-     <Link className="link" to={`/${props.country.name}`}>
+     <Link className="link" to={`/Fun-With-Flags/${props.country.name}`}>
         <div className='card-container'>
             
             <img src={props.country.flag} alt="flag"/>

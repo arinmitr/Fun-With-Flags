@@ -81,7 +81,7 @@ export default class Details extends Component {
         return (
             <div className="detail-container">
                 <div className="back-button-container">
-                    <Link to ="/" className="back-btn-box">
+                    <Link to ="/Fun-With-Flags" className="back-btn-box">
                     <button className="back-button"><i class="fas fa-long-arrow-alt-left"></i>Back</button>
                     </Link>
                 </div>
